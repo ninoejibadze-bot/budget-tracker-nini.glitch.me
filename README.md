@@ -36,3 +36,8 @@ function addExpenseToDOM(expense) {
   li.textContent = `${expense.desc}: €${expense.amount}`;
   document.getElementById("list").appendChild(li);
 }
+<script src="script.js"></script>
+
+
+
+
